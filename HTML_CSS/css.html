@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <title>CSS</title>
+    </head>
+    <body>
+        <h1>O que é CSS?</h1>
+
+        Armonização facial do HTML
+
+        <hr>
+
+        <h1>Formatação de texto CSS</h1>
+
+        <pre>
+        &lt;tag <strong>style="</strong>
+                    <strong>color:</strong>red; 
+                    <strong>font-size:</strong>20px;
+                    <strong>background-color:</strong>yellow;"&gt;
+        </pre>
+        <p style="color:#FF0000;font-size: 20px;background-color:yellow";>Pintando o texto, inserindo uma cor de fundo, aumentando o tamanho da fonte usando os atributos</p>
+
+        <hr>
+
+        <h1>Seletores CSS</h1>
+
+        <pre>
+            usa-se a tag &lt;style&gt; no &lt;head&gt;, com os atributos:
+            
+            <strong>href=</strong>"style.css" - para informar destino do css
+            <strong>rel=</strong>"stylesheet" - para informar o tipo de arquivo
+        </pre>
+        <pre>
+            &lt;head&gt;
+                &lt;style <strong>href=</strong>"style.css" <strong>rel=</strong>"stylesheet"&gt;
+            &lt;/head&gt;
+        </pre>
+
+        <hr>
+
+        <h1>Box Model</h1>
+
+        <pre>atributo "margin:auto;" com valor "auto" recebe ajuste automatico da esquerda e da direita</pre>
+        <style>
+            .cx {
+                width: 200px;
+                height: 200px;
+                border: 1px solid #000;
+                margin: 20px;
+            }
+            .cx1 {
+                width: auto;
+                height: 160px;
+                color:#FF0000;
+                background-color:grey;
+                margin: 20px;
+            }
+            .cx2 {
+                width: auto;
+                height: 70%;
+                color:#FF0000;
+                background-color:#CCC;
+                margin: 20px;
+                margin-top: 10px;
+                border: 1px dashed #000000;
+            }
+            .cx3 {
+                width: auto;
+                height: 57%;
+                color:#FF0000;
+                background-color:grey;
+                margin: 20px;
+                margin-top: 10px;
+            }
+            .cx4 {
+                width: auto;
+                height: 25%;
+                color:#FF0000;
+                background-color:#CCC;
+                margin: 20px;
+                margin-top: 10px;
+            }
+        </style>
+
+        <div class="cx">
+            <div class="cx1">Margin
+                <div class="cx2">border
+                    <div class="cx3">Padding 
+                        <div class="cx4">Content</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <h1>Elementos flutuantes</h1>
+        <pre>atributo "position:;" podendo ter valores como:
+
+                position: absolute; deixa a div livre.
+                position: fixed; deixa a div presa.
+            
+            voce escolhe onde ela vai ficar usando [top:0; right: 0; botton: 0 left: 0;]
+        </pre>
+
+        <style>
+            .el1 {
+                width: 300px;
+                height: 100px;
+                border: 1px solid #000;
+                margin: 20px;
+            }
+            .el2 {
+                width: 100px;
+                height: 20px;
+                color:#FF0000;
+                background-color:yellow;
+                margin: auto;
+                text-align: center;
+                border: 1px solid #000;
+                margin-top: 2px;
+            }
+            .flutuante {
+                position: absolute;
+                top: 1031px;
+                left: 128px;
+            }
+            .perdido {
+                background-color: #FF0000;
+                color: #000;
+                position: fixed;
+                right: 0;
+                top: 0;
+                text-transform: uppercase;
+                width: auto;
+                padding: 5px;
+            }
+        </style>
+
+        <div class="el1">
+            <div class="el2">Exemplo</div>
+            <div class="el2">Exemplo</div>
+            <div class="el2 flutuante">Exemplo</div>
+            <div class="el2 perdido">Div Perdida</div>
+        </div>
+        
+        <hr>
+
+        <h1>Elementos - Display</h1>
+        
+        <pre> Tipos de Display: 
+                    none: (esconde a div)
+                    block: (deixa div amostra) *padrão
+                    inline: (remove propriedades como o width e height e ordena as divs em linha)
+                    inline-block: (mantém as propriedades de width e height da div e as ordena em linha)
+        </pre>
+
+        <style>
+            .texto {
+                width: 300px;
+                height: 100px;
+                background-color: #eeeeee;
+                color: #FF0000;
+                text-align: center;
+                margin: 10px;
+                font-size: 20px;
+
+                display: inline-block;
+            }
+        </style>
+
+        <div class="texto">Texto aqui</div>
+        <div class="texto">Texto aqui</div>
+
+
+
+
+    </body>
+</html>

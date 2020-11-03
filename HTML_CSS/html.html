@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>O que é HTML?</h1>
+    <pre>   
+    HTML é uma linguagem de marcação utilizada na construção de páginas na Web. 
+    Documentos HTML podem ser interpretados por navegadores.</pre>
+
+    <hr>
+
+    <h1>Estrutura do HTML</h1>
+    <pre>
+    &lt;html &gt;
+        &lt;head&gt;
+            &lt;title>Título da página&lt;/title&gt;
+        &lt;/head&gt;
+
+        &lt;body&gt;
+            [conteudo...]
+        &lt;/body&gt;
+    &lt;/html&gt;
+    </pre>
+    <hr>
+
+    <h1>Cabeçalho</h1>
+    <pre>
+        &lt;head&gt;
+            &lt;title>Título da página&lt;/title&gt;<br>
+            &lt;link/&gt;<br>
+            &lt;script /script&gt;<br>
+            &lt;style /style&gt;<br>
+            &lt;meta/&gt;<br>
+            &lt;base href=""&gt;<br>
+        &lt;head&gt;
+    </pre>
+    <hr>
+
+    <h1>Parágrafo</h1>
+    Usa-se  &lt;p&gt;[texto]&lt;/p&gt;  para informar um parágrafo
+    <br><br>
+    &lt;pre&gt;[texto formatado(não recebe formatação)]&lt;/pre&gt;<br>
+    <br><br>
+    exemplo: com &lt;br&gt; usando &lt;p&gt;
+    <pre>
+    Lorem ipsum dolor sit amet consectetur adipisicing &lt;br&gt;<br> elit. Neque enim corporis quibusdam numquam &lt;br&gt;&lt;br&gt;<br><br> necessitatibus quisquam. Sunt placeat perferendis &lt;br&gt;<br> optio, quia, sit nemo eius quisquam, tenetur &lt;br&gt;<br>reiciendis consequatur velit ea accusamus?
+    </pre>
+    <br>
+    exemplo: sem &lt;br&gt; usando &lt;pre&gt;
+    <pre>
+    Lorem ipsum dolor sit, amet consectetur adipisicing
+    elit. Est quo qui molestias soluta hic dignissimos
+    
+    ea sed nulla. Hic unde provident nemo doloribus 
+    labore non esse fuga consequuntur mollitia rerum?
+    </pre>
+
+    <hr>
+
+    <h1>Formatação de texto</h1>
+    <pre>
+        Para <strong>Negrito</strong> Usa-se a tag &lt;strong&gt; não usa-se mais o &lt;b&gt;
+        Para <i>Itálico</i> Usa-se a tag &lt;i&gt;
+        Para <u>Sublinhar</u> Usa-se a tag &lt;u&gt; 
+        Para <strike>Riscado</strike> Usa-se a tag &lt;strike&gt;
+        Para <small>Diminuiro texto</small> Usa-se a tag &lt;small&gt;
+        Para b<sup>2</sup> Usa-se a tag &lt;sup&gt;
+        Para b<sub>2</sub> Usa-se a tag &lt;sub&gt;
+    </pre>
+
+    <hr>
+
+    <h1>iFrame</h1>
+    <pre>
+        Tag &lt;iframe&gt;&lt;/iframe&gt;
+
+        <u>Atributos comuns:</u> 
+        frameborder="0"
+        width="0"
+        height="0"
+    </pre>
+    exemplo: 
+    <iframe src="https://ogustavove.github.io/awax/" width="400" height="400" frameborder="0"></iframe>
+
+    <hr>
+
+    <h1>Eventos no HTML (onClick, onMouseOut, onMouseOver)</h1>
+
+    <pre>
+        Eventos que podem ser usado no HTML
+        exemplo de atributos:
+    </pre>
+    
+        <div>
+            onClick: <br>
+            <a href=""><img src="http://www.google.com.br/google.jpg" onclick="alert('você clicou')"></a>
+        </div>
+        <div>
+            onMouseOut: <br>
+            <a href=""><img src="http://www.google.com.br/google.jpg" onmouseout="alert('voce tirou o mouse')"></a>
+        </div>
+        <div>
+            onMouseOver: <br>
+            <a href=""><img src="http://www.google.com.br/google.jpg" onmouseover="alert('voce passou o mouse')"></a>
+        </div>
+    
+</body>
+</html>
