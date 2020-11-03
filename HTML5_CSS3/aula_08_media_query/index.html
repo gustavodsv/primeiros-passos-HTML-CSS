@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Media Query</h1>
+
+    <p> O @media trabalha com responsividade. <br> <br>
+        Onde é possivel alterar configurações de exibição da página a partir do tamanho da tela.</p>
+
+    <pre>
+        @media only screen and (max-width: 600px){
+            .teste {
+                background-color: #00ff00;
+                width: 300px;
+            }
+        }
+    </pre>
+    
+    <pre>
+        Atributos comuns: 
+        max-width = maximo de largura
+        min-width = minimo de largura
+        orientation:landscape = usado para aparelhos virados na horizontal
+    </pre>
+    <div class="teste"></div>
+</body>
+</html>

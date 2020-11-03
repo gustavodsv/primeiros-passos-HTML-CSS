@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tag &lt;audio&gt;</title>
+</head>
+<body>
+    <h1>Tag para Áudios</h1>
+    <p>Da mesma maneira que é aplicado o video, o audio funciona</p>
+
+    <pre>Atributos comuns usadas na tag &lt;audio&gt;:
+        1. controls = adiciona os botões e as informações do video.
+        2. autoplay = quando  a pagina é carregada, o audio inicia automaticamente.
+        3. loop = quando o video acaba, ele reinicia.
+        4. muted = video inicia mutado.
+        5. preload = em casa de internet lenta, o loader da uma pre carregada.
+    </pre>
+
+    <p>O atributo type aplicado no &lt;source&gt; também suporta arquivos: .mp3, .ogg, .wav.</p>
+
+    <pre>
+        &lt;audio controls autoplay loop muted preload&gt;
+            &lt;source src="som.mp3" type="audio/mpeg"&gt; 
+        &lt;/audio&gt;
+    </pre>
+    <audio controls autoplay loop muted preload>
+        <source src="som.mp3" type="audio/mpeg"> 
+    </audio>
+</body>
+</html>
