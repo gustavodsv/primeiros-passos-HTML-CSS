@@ -1,11 +1,29 @@
+body {
+    margin:auto;
+    align-items:center;
+    width:800px;
+}
+.topo {
+    height: 80px;
+}
 header {
-    background-color: aquamarine;
+    background-color: #CCC;
+    width: 50%;
+    float: left;
 }
-
 nav {
-    background-color: cadetblue;
+    background-color: #EEE;
+    width:50%;
+    float: left;
 }
-
+.corpo {
+    background-color: #DDD;
+    margin: 27px 0px 2px 0px;
+    padding: 20px;
+}
+.corpo p, .corpo h2{
+    margin:0px;
+}
 footer {
     background-color: #ccc;
 }
