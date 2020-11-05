@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+.title {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.topo {
+    width: 100%;
+    max-width: 800px;
+    background-color: #CCC;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+.h2,.h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.corpo {
+    width: 100%;
+    max-width: 800px;
+    height: 255px;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 20px;
+}
+.corpo p {
+    margin: 0;
+}
+.article {
+    width: 70%;
+    float: left;
+}
+.aside {
+    width: 30%;
+    float: left;
+}
+
+aside {
+    border-left: 1px solid #CCC;
+    height: 240px;
+    padding-left: 10px;
+}
+section {
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+time p{
+    padding-top: 10px;
+}
+.rodape {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 2px;
+    background-color: #DDD;
+    padding: 20px;
+    
+}
+.body {
+    width: 800px;
+    margin: auto;
+}
