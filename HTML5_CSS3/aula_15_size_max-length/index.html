@@ -7,17 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="texto">
+        <h2>Atributos</h2>
+        <p>Size: reduz o tamanho do campo, de acordo com a quantidade de caracter em caixa alta.(altera o width)</p><br>
+        <p>maxLenght: limita a quantidade de caracter</p>
+    </div>
+    
     <div class="formulario">
         
         <form method="POST">
             <h3>Login</h3>
             <br>
+            <p>Size em uso (15 caracters)</p>
+            <input type="text" name="usuario" placeholder="Usuário" autofocus size="15"> <br><br>
 
-            <p>Este campo já está Selecionado</p>
-            <input type="text" name="usuario" placeholder="Usuário" autofocus> <br><br>
-
-            Senha: <br>
-            <input type="password" name="senha" placeholder="Senha"> <br><br>
+            <p>maxLenght em uso (no maximo 6 caracters)</p>
+            <input type="password" name="senha" placeholder="Senha" maxlength="6"> <br><br>
 
             <input type="submit" value="Entrar">
         </form>

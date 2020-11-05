@@ -14,19 +14,15 @@ Serão aulas básícas de fixação que farei diariamente, com o uso de HTML5, C
 
 ### Aula 01 - Header, Footer e Nav 
 
-<h1 align="center">
-    <img src="HTML5_CSS3/aula_01_header_footer_nav/printscreen" width="800px">
-</h1>
+![printscreen](https://user-images.githubusercontent.com/73357611/98189967-cde32100-1ef4-11eb-957d-c577eb17d1a5.jpg)
 
 <br>
 
 ### Aula 02 - Section, Article e Time 
 
-<h1 align="center">
-    <img src="HTML5_CSS3/aula_02_section_article_time" width="800px">
-</h1>
+![print](https://user-images.githubusercontent.com/73357611/98190232-5a8ddf00-1ef5-11eb-9f01-59c7818f8b75.jpg)
 
 ---
 <h4 align="center">
-    by <a href="https://www.linkedin.com/in/gustavodsv/" target="_blank">Gustavo</a>
+    by Gustavo - <a href="https://www.linkedin.com/in/gustavodsv/" target="_blank">Linkedin</a>
 </h4>
