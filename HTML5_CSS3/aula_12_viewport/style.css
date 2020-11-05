@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+.topo {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #EEE;
+}
+.topo h1 {
+    margin: 0px;
+    padding: 20px;
+}
+.corpo {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #CCC;
+}
+.corpo h1{
+    margin: 0px;
+    padding: 20px;
+}
+.corpo p {
+    margin: 0;
+    padding: 20px;
+}
+.rodape {
+    width: 100%;
+    max-width: 800px;
+    height: 50px;
+    margin: auto;
+    background-color: #DDD;
+}
+
+@media only screen and ( max-width: 500px) {
+    .topo {
+        height: auto;
+    }
+    .logo {
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+    }
+}
