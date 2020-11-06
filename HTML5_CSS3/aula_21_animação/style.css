@@ -1,0 +1,20 @@
+@keyframes teste {
+    0% {background-color: red;}
+    25% {background-color: yellow;}
+    50% {background-color: blue;}
+    75% {background-color: white;}
+    100% {background-color: indigo;}
+}
+
+body {
+    margin: 0;
+}
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto;
+    margin-top: 30px;
+    animation-name: teste;
+    animation-duration: 4s;
+}
