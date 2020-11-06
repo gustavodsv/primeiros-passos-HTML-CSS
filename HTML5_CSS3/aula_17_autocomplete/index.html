@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autofocus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="texto">
+        <h2>Atributo - autocomplete</h2>
+        <p>O atributo <span>autocomplete</span> tem as opções - <span>on/off</span></p>
+        <p>Exemplo ON: ao começar a digitar em um campo vazio, é possivel ver sugestões para você completar o campo.</p>
+        <p>Exemplo OFF: ao clicar/digitar, não aparece sugestões.</p>
+    </div>
+    
+    <div class="formulario">
+        
+        <form method="POST">
+            <h3>Login</h3>
+            <br>
+            <input type="text" name="usuario" placeholder="Usuário" autofocus autocomplete="on"> <br><br>
+
+
+            <input type="password" name="senha" placeholder="Senha" maxlength="6" required> <br><br>
+
+            <input type="submit" value="Entrar">
+        </form>
+    </div>
+</body>
+</html>
