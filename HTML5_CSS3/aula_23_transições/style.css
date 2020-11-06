@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: #000;
+    margin: auto;
+    margin-top: 50px;
+    transition: all 1s linear;
+    color: #000;
+}
+.txt {
+    font-size: 40px;
+}
+
+.exemplo:hover {
+    width: 250px;
+    height: 250px;
+    color: #FFF;
+    background-color: darkcyan;
+}
