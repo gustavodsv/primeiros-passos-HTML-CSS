@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autofocus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="texto">
+        <h2>Atributo - Required</h2>
+        <p>O atributo <span>required</span> no formulario, ajuda a informar ao usuario que o preenchimento do campo é obrigatório.</p>
+        <p>Ao clicar em Enviar e o campo não estiver preenchido, os dados não são enviado e aparece a mensagem <span>"Preencha este campo"</span> </p>
+    </div>
+    
+    <div class="formulario">
+        
+        <form method="POST">
+            <h3>Login</h3>
+            <br>
+            <input type="text" name="usuario" placeholder="Usuário" autofocus required> <br><br>
+
+
+            <input type="password" name="senha" placeholder="Senha" maxlength="6" required> <br><br>
+
+            <input type="submit" value="Entrar">
+        </form>
+    </div>
+</body>
+</html>
