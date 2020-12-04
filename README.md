@@ -1,5 +1,5 @@
 <h2 align="center">
-    <b>🚀 Exercícios 🚀|+html & css, +html5 & css3, +js| </b>  
+    <b>🚀 Exercícios 🚀|+html & css| |+html5 & css3| |+js| </b>  
     <br><br>
  
 </h2>
@@ -8,7 +8,7 @@
 
 ## 🧐 Sobre os exercícios
 
-Serão aulas básícas de fixação que farei diariamente, com o uso de HTML5, CSS3 e depois avançarei para o JavaScript. Com intuito de revisar as linguagens usadas, e adquirir conhecimento no GitHub e no Git.
+São aulas básicas de fixação que fiz diariamente, com o uso de HTML5, CSS3 e depois avançarei para o JavaScript. Com intuito de revisar as linguagens usadas, e adquirir conhecimento no GitHub e no Git.
 
 <br>
 
